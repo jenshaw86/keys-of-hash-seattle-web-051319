@@ -3,7 +3,8 @@ class Hash
   
   def keys_of(arguments)
     keys = []
-    binding.pry
+    puts arguments
+    # binding.pry
     self.each do |animal, origin|
       # binding.pry
       if origin == arguments
