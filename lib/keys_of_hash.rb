@@ -4,7 +4,7 @@ class Hash
     keys = []
     self.each do |animal, origin|
       arguments.each do |argument|
-        if origin == arguments
+        if origin == argument
           keys << animal
         end
       end
