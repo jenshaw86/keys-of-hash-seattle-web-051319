@@ -5,6 +5,7 @@ class Hash
     self.each do |animal, origin|
       if origin == arguments
         keys << arguments
+        binding.pry
       end
     end
     keys
