@@ -10,7 +10,7 @@ class Hash
       end
     end
     keys
-    # binding.pry
+    binding.pry
   end
   
 end
