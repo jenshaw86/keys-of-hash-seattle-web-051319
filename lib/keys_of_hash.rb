@@ -1,6 +1,6 @@
 require "pry"
 class Hash
-  def keys_of(arguments)
+  def keys_of(*arguments)
     keys = []
     self.each do |animal, origin|
       if origin == arguments
