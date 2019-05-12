@@ -7,8 +7,8 @@ class Hash
         keys << arguments
       end
     end
+    keys
   end
-  keys
 end
 
 
