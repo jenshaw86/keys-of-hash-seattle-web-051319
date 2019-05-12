@@ -1,7 +1,7 @@
 require "pry"
 class Hash
   
-  def keys_of(*arguments)
+  arguments)
     keys = []
     self.each do |animal, origin|
       binding.pry
